@@ -1,5 +1,73 @@
 body {
-    background-image: url ("./images/bg-pattern-desktop.svg");
-    color: white; 
-    font-family: Josefin Sans;
+  background-image: url("./images/bg-pattern-desktop.svg");
+  color: black;
+  font-family: Josefin Sans;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: contain;
+  margin: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 8rem 10rem 8rem;
+}
+
+.logo {
+  height: 2rem;
+  width: 10rem;
+  margin-bottom: 7rem;
+}
+
+h1 {
+  color: hsl(0, 36%, 70%);
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 1rem;
+}
+
+.bold {
+  color: black;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.page-text {
+  color: hsl(0, 36%, 70%);
+  line-height: 1.75;
+}
+
+.round-corners {
+  border-radius: 3rem;
+}
+
+.container {
+  display: flex;
+}
+
+.heroimage {
+  height: 100vh;
+}
+
+input {
+  all: unset;
+  padding: 1rem;
+  width: 25rem;
+  color: hsl(0, 36%, 70%);
+  border: 1px solid hsl(0, 36%, 70%);
+}
+
+input::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+
+button {
+  position: relative;
+  left: 22.5rem;
+  bottom: 3.101rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
